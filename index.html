@@ -24,7 +24,6 @@
       <!-- HEADER LINKS -->
       <section class="header-links">
         <a
-          class="hero-icons-anchor"
           href="https://LinkedIn.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -32,17 +31,11 @@
           <i class="fa fa-linkedin"></i>
           <span class="sr-only">LinkedIn</span>
         </a>
-        <a
-          class="hero-icons-anchor"
-          href="https://github.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
           <i class="fa fa-github"></i>
           <span class="sr-only">Github</span>
         </a>
         <a
-          class="hero-icons-anchor"
           href="https://stackoverflow.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -54,47 +47,54 @@
 
       <!-- HEADER TEXT -->
       <section class="header-text">
-        <p class="header-p">PORTFOLIO: <b>SARA HEIJKENSKJÖLD</b></p>
+        <p class="header-p">Portfolio: <b>Sara Heijkenskjöld</b></p>
         <h1 class="header-h1">frontend developer</h1>
         <h2 class="header-h2">+ teacher</h2>
       </section>
 
       <!-- HEADER IMAGE -->
       <img
-        class="header-hero-image"
+        class="header-image"
         src="./assets/profile-image.jpg"
         alt="Profile image"
       />
 
       <!-- HEADER HERO -->
-      <picture class="hero">
-        <source
-          srcset="./assets/header-image-medium.jpg"
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="./assets/header-image-large.jpg"
-          media="(min-width: 1024)"
-        />
-        <img src="./assets/header-image.jpg" alt="background image" />
-      </picture>
+      <!-- 
+      <div class="hero-container">
+        <picture>
+          <source
+            srcset="./assets/header-image-medium.jpg"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="./assets/header-image-large.jpg"
+            media="(min-width: 1024)"
+          />
+          <img
+            class="header-hero"
+            src="./assets/header-image.jpg"
+            alt="background image"
+          />
+        </picture>
+      </div> -->
     </header>
 
     <!-- MAIN -->
     <main class="main-wrapper">
       <!-- MAIN SUMMARY -->
-      <section class="main-summary">
-        <p class="main-summary-text">
-          <span></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      <section class="main-section beige">
+        <p class="main-p">
+          <span><span></span></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Amet ipsam quod, eius nostrum minima culpa quia magnam placeat ipsa
           odit sed aliquam obcaecati! Quae illum animi, at alias modi itaque.
         </p>
       </section>
 
       <!-- MAIN TECH -->
-      <section class="main-tech">
-        <h3 class="main-header">tech</h3>
-        <p class="main-tech-text">
+      <section class="main-section">
+        <h3 class="main-h3">tech</h3>
+        <p class="main-p center">
           HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks, Redux,
           Node.js, Mongo DB, Web Accessibly, API:s, mob-programming,
           pair-programming, Github.
@@ -102,8 +102,8 @@
       </section>
 
       <!-- MAIN FEATURED PROJECTS -->
-      <section class="main-featured-projects">
-        <h3 class="main-header">Featured Projects</h3>
+      <section class="main-section beige">
+        <h3 class="main-h3">Featured Projects</h3>
         <article class="main-project-wrapper">
           <a href="google.com">
             <div class="main-project-container">
@@ -154,6 +154,8 @@
     </main>
 
     <!-- FOOTER -->
-    <footer>Footer</footer>
+    <footer>Footer
+      <a href="mailto:theresemlinden@gmail.com" target="blank"></i>theresemlinden@gmail.com</a>
+    </footer>
   </body>
 </html>
