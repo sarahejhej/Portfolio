@@ -132,7 +132,7 @@ body {
   font: bold 22px/27px Montserrat;
   letter-spacing: 0;
   text-transform: uppercase;
-  background: #73574e;
+  background: #6f3112;
   padding: 10px 15px;
   margin: 0 0 40px 0;
 }
@@ -206,7 +206,7 @@ body {
 .main-article-span {
   text-transform: uppercase;
   font-weight: bold;
-  color: #73574e;
+  color: #6f3112;
 }
 
 /*-- main projects tag --*/
@@ -229,7 +229,7 @@ body {
 .main-h4 {
   font: bold 21px/25px Montserrat;
   letter-spacing: 0;
-  color: #73574e;
+  color: #6f3112;
 }
 
 .main-other {
@@ -248,7 +248,7 @@ body {
   align-self: flex-start;
   font: 17px/32px Roboto;
   letter-spacing: 0;
-  color: #73574e;
+  color: #6f3112;
   margin: 35px 0 0 0;
   text-transform: uppercase;
 }
@@ -325,8 +325,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 3px solid #73574e;
-  color: #73574e;
+  border: 3px solid #6f3112;
+  color: #6f3112;
   width: 59px;
   height: 59px;
   font-size: 29 px;
@@ -337,8 +337,38 @@ body {
   text-align: center;
   font: 900 11px/41px Avenir;
   letter-spacing: 0;
-  color: #73574e;
+  color: #6f3112;
   text-transform: uppercase;
+  margin: 0;
+}
+
+/*** FOOTER ***/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #aebea1;
+}
+
+.footer-header {
+  font: bold 21px/25px Montserrat;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.footer-p-bold {
+  font: bold 17px/29px Roboto;
+  letter-spacing: 0;
+  margin: 20px 0 0 0;
+}
+
+.footer-p {
+  font: 17px/29px Roboto;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: #fff;
   margin: 0;
 }
 
