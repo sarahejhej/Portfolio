@@ -356,19 +356,21 @@ body {
   letter-spacing: 0;
   text-transform: uppercase;
   margin: 0;
+  color: #2b2e34;
 }
 
 .footer-p-bold {
   font: bold 17px/29px Roboto;
   letter-spacing: 0;
   margin: 20px 0 0 0;
+  color: #2b2e34;
 }
 
 .footer-p {
   font: 17px/29px Roboto;
   letter-spacing: 0;
   text-decoration: none;
-  color: #fff;
+  color: #2b2e34;
   margin: 0;
 }
 
