@@ -18,67 +18,75 @@
     <link rel="stylesheet" href="./style.css" />
     <title>Sara Heijkenskjöld Portfolio</title>
   </head>
-  <body class="grid-wrapper">
+  <body class="body body__grid">
     <!-- HEADER -->
     <header class="header">
       <!-- HEADER LINKS -->
-      <section class="header-links">
+      <nav class="header__nav">
         <a
+          class="header__link"
           href="https://LinkedIn.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fa fa-linkedin"></i>
+          <i class="fa fa-linkedin header__i"></i>
           <span class="sr-only">LinkedIn</span>
         </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-          <i class="fa fa-github"></i>
+        <a
+          class="header__link"
+          href="https://github.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa fa-github header__i"></i>
           <span class="sr-only">Github</span>
         </a>
         <a
+          class="header__link"
           href="https://stackoverflow.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fa fa-stack-overflow"></i>
+          <i class="fa fa-stack-overflow header__i"></i>
           <span class="sr-only">Stack overflow</span>
         </a>
-      </section>
+      </nav>
 
       <!-- HEADER TEXT -->
-      <section class="header-text">
-        <p class="header-p">Portfolio: <b>Sara Heijkenskjöld</b></p>
-        <h1 class="header-h1">frontend developer</h1>
-        <h2 class="header-h2">+ teacher</h2>
+      <section class="header__section">
+        <p class="header__text">Portfolio: <b>Sara Heijkenskjöld</b></p>
+        <h1 class="header__heading">frontend developer</h1>
+        <h2 class="header__subheading">+ teacher</h2>
       </section>
 
       <!-- HEADER IMAGE -->
       <img
-        class="header-image"
+        class="header__image"
         src="./assets/profile-image.jpg"
         alt="Profile image of Sara Heijkenskjöld"
       />
     </header>
 
     <!-- MAIN -->
-    <main class="main-wrapper">
+    <main class="main__grid">
       <!-- MAIN SUMMARY -->
-      <section class="main-section beige">
-        <div class="main-section-container">
-          <p class="main-p">
-            <span><span></span></span>Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Amet ipsam quod, eius nostrum minima culpa quia
-            magnam placeat ipsa odit sed aliquam obcaecati! Quae illum animi, at
-            alias modi itaque.
+      <section class="section section__background--beige">
+        <div class="main__container">
+          <p class="summary__text">
+            <span class="summary__span--line"></span
+            ><span class="summary__span--circle"></span>Lorem ipsum dolor sit
+            amet, consectetur adipisicing elit. Amet ipsam quod, eius nostrum
+            minima culpa quia magnam placeat ipsa odit sed aliquam obcaecati!
+            Quae illum animi, at alias modi itaque.
           </p>
         </div>
       </section>
 
       <!-- MAIN TECH -->
-      <section class="main-section">
-        <div class="main-section-container">
-          <h3 class="main-h3">tech</h3>
-          <p class="main-p center">
+      <section class="section">
+        <div class="main__container">
+          <h3 class="main__heading">tech</h3>
+          <p class="summary__text tech__text--center">
             HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks, Redux,
             Node.js, Mongo DB, Web Accessibly, API:s, mob-programming,
             pair-programming, Github.
@@ -87,67 +95,131 @@
       </section>
 
       <!-- MAIN FEATURED PROJECTS -->
-      <section class="main-section beige">
-        <div class="main-section-container">
-          <h3 class="main-h3">Featured Projects</h3>
+      <section class="section section__background--beige">
+        <div class="main__container">
+          <h3 class="main__heading">Featured Projects</h3>
 
           <!-- main featured projects articles -->
-          <article class="main-article">
-            <a class="main-article-a" href="google.com">
-              <div class="main-article-container">
-                <img
-                  class="main-image"
-                  src="./assets/profile-image.jpg"
-                  alt=""
-                />
-                <div class="overlay">
-                  <p class="overlay-p">Sunny side up</p>
+          <div class="projects__grid">
+            <article class="project">
+              <a class="project__link" href="google.com">
+                <div class="project__image-container">
+                  <img
+                    class="project__image"
+                    src="./assets/profile-image.jpg"
+                    alt="Image of project"
+                  />
+                  <div class="project__overlay">
+                    <p class="project__caption">Sunny side up</p>
+                  </div>
                 </div>
+                <div>
+                  <p class="project__text">
+                    <span class="project__span">Weather App.</span>
+                    Web app built in JavaScript using open weather API
+                    <span class="project__span project__span--underline"
+                      >>></span
+                    >
+                  </p>
+                </div>
+              </a>
+              <div class="project__tags-container">
+                <p class="project__tag">HTML5</p>
+                <p class="project__tag">CSS</p>
+                <p class="project__tag">JavaScript ES6</p>
               </div>
-              <div>
-                <p class="main-article-p">
-                  <span class="main-article-span">Weather App.</span>
-                  Web app built in JavaScript using open weather API
-                  <span class="main-article-span underline">>></span>
-                </p>
-              </div>
-            </a>
-            <div class="main-tag">
-              <p class="main-tag-p">HTML5</p>
-              <p class="main-tag-p">CSS</p>
-              <p class="main-tag-p">JavaScript ES6</p>
-            </div>
-          </article>
+            </article>
 
-          <article class="main-article">
-            <a class="main-article-a" href="google.com">
-              <div class="main-article-container">
-                <img
-                  class="main-image"
-                  src="./assets/profile-image.jpg"
-                  alt=""
-                />
-                <div class="overlay">
-                  <p class="overlay-p">Sunny side up</p>
+            <article class="project">
+              <a class="project__link" href="google.com">
+                <div class="project__image-container">
+                  <img
+                    class="project__image"
+                    src="./assets/profile-image.jpg"
+                    alt="Image of project"
+                  />
+                  <div class="project__overlay">
+                    <p class="project__caption">Sunny side up</p>
+                  </div>
                 </div>
+                <div>
+                  <p class="project__text">
+                    <span class="project__span">Weather App.</span>
+                    Web app built in JavaScript using open weather API
+                    <span class="project__span project__span--underline"
+                      >>></span
+                    >
+                  </p>
+                </div>
+              </a>
+              <div class="project__tags-container">
+                <p class="project__tag">HTML5</p>
+                <p class="project__tag">CSS</p>
+                <p class="project__tag">JavaScript ES6</p>
               </div>
-              <div>
-                <p class="main-article-p">
-                  <span class="main-article-span">Weather App.</span>
-                  Web app built in JavaScript using open weather API
-                  <span class="main-article-span underline">>></span>
-                </p>
+            </article>
+
+            <article class="project">
+              <a class="project__link" href="google.com">
+                <div class="project__image-container">
+                  <img
+                    class="project__image"
+                    src="./assets/profile-image.jpg"
+                    alt="Image of project"
+                  />
+                  <div class="project__overlay">
+                    <p class="project__caption">Sunny side up</p>
+                  </div>
+                </div>
+                <div>
+                  <p class="project__text">
+                    <span class="project__span">Weather App.</span>
+                    Web app built in JavaScript using open weather API
+                    <span class="project__span project__span--underline"
+                      >>></span
+                    >
+                  </p>
+                </div>
+              </a>
+              <div class="project__tags-container">
+                <p class="project__tag">HTML5</p>
+                <p class="project__tag">CSS</p>
+                <p class="project__tag">JavaScript ES6</p>
               </div>
-            </a>
-            <div class="main-tag">
-              <p class="main-tag-p">HTML5</p>
-              <p class="main-tag-p">CSS</p>
-              <p class="main-tag-p">JavaScript ES6</p>
-            </div>
-          </article>
+            </article>
+
+            <article class="project">
+              <a class="project__link" href="google.com">
+                <div class="project__image-container">
+                  <img
+                    class="project__image"
+                    src="./assets/profile-image.jpg"
+                    alt="Image of project"
+                  />
+                  <div class="project__overlay">
+                    <p class="project__caption">Sunny side up</p>
+                  </div>
+                </div>
+                <div>
+                  <p class="project__text">
+                    <span class="project__span">Weather App.</span>
+                    Web app built in JavaScript using open weather API
+                    <span class="project__span project__span--underline"
+                      >>></span
+                    >
+                  </p>
+                </div>
+              </a>
+              <div class="project__tags-container">
+                <p class="project__tag">HTML5</p>
+                <p class="project__tag">CSS</p>
+                <p class="project__tag">JavaScript ES6</p>
+              </div>
+            </article>
+          </div>
 
           <!-- main other projects articles -->
-          <h4 class="main-h4">Other Projects</h4>
+          <h4 class="main__subheading">Other Projects</h4>
           <div class="main-other">
             <article class="main-article">
               <a href="#" class="main-article-a">
@@ -158,9 +230,9 @@
                 </p>
               </a>
               <div class="main-tag">
-                <p class="main-tag-p">HTML5</p>
-                <p class="main-tag-p">CSS</p>
-                <p class="main-tag-p">JavaScript ES6</p>
+                <p class="project__tag">HTML5</p>
+                <p class="project__tag">CSS</p>
+                <p class="project__tag">JavaScript ES6</p>
               </div>
             </article>
 
@@ -173,9 +245,9 @@
                 </p>
               </a>
               <div class="main-tag">
-                <p class="main-tag-p">HTML5</p>
-                <p class="main-tag-p">CSS</p>
-                <p class="main-tag-p">JavaScript ES6</p>
+                <p class="project__tag">HTML5</p>
+                <p class="project__tag">CSS</p>
+                <p class="project__tag">JavaScript ES6</p>
               </div>
             </article>
           </div>
@@ -184,8 +256,8 @@
 
       <!-- MAIN THOUGHTS -->
       <section class="main-section">
-        <div class="main-section-container">
-          <h3 class="main-h3">My Thoughts</h3>
+        <div class="main__container">
+          <h3 class="main__heading">My Thoughts</h3>
           <article class="main-article">
             <img src="./assets/computer-small.png" alt="Image of computer" />
             <p class="main-thoughts-header">Dec 2019</p>
@@ -200,7 +272,7 @@
               <span class="main-thoughts-header underline">>></span>
             </p>
           </article>
-          <h4 class="main-h4">More thoughts</h4>
+          <h4 class="main__subheading">More thoughts</h4>
           <div class="main-other">
             <article class="main-article-thoughts">
               <a class="main-article-a" href="#">
@@ -226,9 +298,51 @@
       </section>
 
       <!-- MAIN SKILLS -->
+      <section class="section skills__grid">
+        <div class="skills__item--first">
+          <p class="main-article-p main-article-span main-list-p">Code</p>
+          <ul class="main-list main-article-p">
+            <li>HTML 5</li>
+            <li>CSS3</li>
+            <li>JavaScript ES6</li>
+            <li>GitHub</li>
+          </ul>
+          <p class="main-article-p main-article-span main-list-p">Upcoming</p>
+          <ul class="main-list main-article-p">
+            <li>Redux</li>
+            <li>React</li>
+            <li>SASS</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+        <div class="skills__item--second">
+          <p class="main-article-p main-article-span main-list-p">Toolbox</p>
+          <ul class="main-list main-article-p">
+            <li>Atom</li>
+            <li>Postman</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Microsoft Excel</li>
+            <li>Keynote</li>
+          </ul>
+        </div>
+
+        <div class="skills__item--third">
+          <p class="main-article-p main-article-span main-list-p">More</p>
+          <ul class="main-list main-article-p">
+            <li>Atom</li>
+            <li>Postman</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Microsoft Excel</li>
+            <li>Keynote</li>
+          </ul>
+        </div>
+      </section>
+
       <section class="main-section beige">
-        <div class="main-section-container">
-          <h3 class="main-h3">Skills</h3>
+        <div class="main__container">
+          <h3 class="main__heading">Skills</h3>
           <div class="main-list-container">
             <div class="list-container">
               <p class="main-article-p main-article-span main-list-p">Code</p>
@@ -236,16 +350,16 @@
                 <li>HTML 5</li>
                 <li>CSS3</li>
                 <li>JavaScript ES6</li>
-                <li>React</li>
-                <li>SASS</li>
                 <li>GitHub</li>
-                <li>Node.js</li>
               </ul>
               <p class="main-article-p main-article-span main-list-p">
                 Upcoming
               </p>
               <ul class="main-list main-article-p">
                 <li>Redux</li>
+                <li>React</li>
+                <li>SASS</li>
+                <li>Node.js</li>
               </ul>
             </div>
             <div class="list-list-container">
@@ -281,8 +395,8 @@
 
       <!-- MAIN MORE -->
       <section class="main-section">
-        <div class="main-section-container">
-          <h3 class="main-h3">For More</h3>
+        <div class="main__container">
+          <h3 class="main__heading">For More</h3>
           <section class="more-links-big">
             <a
               class="more-links"
