@@ -20,7 +20,7 @@
   </head>
   <body class="body grid">
     <!-- HEADER -->
-    <header class="header">
+    <header class="header" tabindex="0">
       <!-- HEADER LINKS -->
       <nav class="header__nav">
         <a
@@ -73,11 +73,11 @@
       <section class="section section__background--beige">
         <div class="grid__section">
           <p class="summary__text">
-            <span class="summary__span--line"></span
-            ><span class="summary__span--circle"></span>Lorem ipsum dolor sit
-            amet, consectetur adipisicing elit. Amet ipsam quod, eius nostrum
-            minima culpa quia magnam placeat ipsa odit sed aliquam obcaecati!
-            Quae illum animi, at alias modi itaque.
+            <span class="summary__span--line"></span>
+            <span class="summary__span--circle"></span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ipsam
+            quod, eius nostrum minima culpa quia magnam placeat ipsa odit sed
+            aliquam obcaecati! Quae illum animi, at alias modi itaque.
           </p>
         </div>
       </section>
@@ -97,9 +97,9 @@
       <!-- MAIN FEATURED PROJECTS -->
       <section class="section section__background--beige">
         <div class="grid__section">
-          <h3 class="main__heading">Featured projectss</h3>
+          <h3 class="main__heading">Featured projects</h3>
 
-          <!-- main featured projectss articles -->
+          <!-- main featured projects articles -->
           <div class="grid__project">
             <article class="article">
               <a class="article__link" href="google.com">
@@ -116,7 +116,7 @@
                 <div>
                   <p class="projects__text">
                     <span class="projects__span">Weather App.</span>
-                    Web app built in JavaScript using open weather API
+                    Web app built in JavaScript using open weather API.
                     <span class="projects__span article__span--underline"
                       >>></span
                     >
@@ -145,7 +145,7 @@
                 <div>
                   <p class="projects__text">
                     <span class="projects__span">Weather App.</span>
-                    Web app built in JavaScript using open weather API
+                    Web app built in JavaScript using open weather API.
                     <span class="projects__span article__span--underline"
                       >>></span
                     >
@@ -174,7 +174,7 @@
                 <div>
                   <p class="projects__text">
                     <span class="projects__span">Weather App.</span>
-                    Web app built in JavaScript using open weather API
+                    Web app built in JavaScript using open weather API.
                     <span class="projects__span article__span--underline"
                       >>></span
                     >
@@ -203,7 +203,7 @@
                 <div>
                   <p class="projects__text">
                     <span class="projects__span">Weather App.</span>
-                    Web app built in JavaScript using open weather API
+                    Web app built in JavaScript using open weather API.
                     <span class="projects__span article__span--underline"
                       >>></span
                     >
@@ -218,16 +218,17 @@
             </article>
           </div>
 
-          <!-- main other projectss articles -->
-          <h4 class="main__subheading">Other projectss</h4>
-          <div class="projects__other">
+          <!-- main other projects -->
+          <h4 class="main__subheading">Other projects</h4>
+          <div class="grid__other">
             <article class="projects">
-              <a class="article__link"
-              href="#" ">
+              <a class="article__link" href="#">
                 <p class="projects__text">
                   <span class="projects__span">Weather App.</span>
-                  Web app built in JavaScript using open weather API
-                  <span class="projects__span article__span--underline">>></span>
+                  Web app built in JavaScript using open weather API.
+                  <span class="projects__span article__span--underline"
+                    >>></span
+                  >
                 </p>
               </a>
               <div class="projects__tags-container">
@@ -241,8 +242,10 @@
               <a class="article__link" href="#">
                 <p class="projects__text">
                   <span class="projects__span">Weather App.</span>
-                  Web app built in JavaScript using open weather API
-                  <span class="projects__span article__span--underline">>></span>
+                  Web app built in JavaScript using open weather API.
+                  <span class="projects__span article__span--underline"
+                    >>></span
+                  >
                 </p>
               </a>
               <div class="projects__tags-container">
@@ -258,52 +261,67 @@
       <!-- MAIN THOUGHTS -->
       <section class="section">
         <div class="grid__section">
-          <h3 class="main__heading">My Thoughts</h3>
+          <h3 class="main__heading displayed">My Thoughts</h3>
+          <h3 class="main__heading hidden">My Thoughts about code</h3>
           <div class="grid__thoughts">
             <article class="article">
               <a class="article__link" href="#">
-                <img class="thoughts__image"
-                src="./assets/computer-small.png" alt="Image of computer" />
-              <p class="thoughts__subheading" role="doc-subtitle">Oct 2020</p>
-              <h4 class="thoughts__heading">
-                Lorem, ipsum dolor sit amet consectetur adipisicing.
-              </h4>
-              <p class="thoughts__text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Consectetur, iste! Veritatis corporis tempore veniam fuga
-                quaerat id at! Pariatur nulla voluptate optio, dolorem suscipit
-                debitis perspiciatis. Vel quis reiciendis distinctio!
-                <span class="thoughts__subheading article__span--underline">>></span>
-              </p>
-            </a>
+                <img
+                  class="thoughts__image"
+                  src="./assets/computer-small.png"
+                  alt="Image of computer"
+                />
+                <p class="thoughts__subheading" role="doc-subtitle">Oct 2020</p>
+                <h4 class="thoughts__heading">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing.
+                </h4>
+                <p class="thoughts__text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Consectetur, iste! Veritatis corporis tempore veniam fuga
+                  quaerat id at! Pariatur nulla voluptate optio, dolorem
+                  suscipit debitis perspiciatis. Vel quis reiciendis distinctio!
+                  <span class="thoughts__subheading article__span--underline"
+                    >>></span
+                  >
+                </p>
+              </a>
             </article>
 
             <article class="article hidden">
               <a class="article__link" href="#">
-                <img class="thoughts__image"
-                src="./assets/computer-small.png" alt="Image of computer" />
-              <p class="thoughts__subheading" role="doc-subtitle">Oct 2020</p>
-              <h4 class="thoughts__heading">
-                Lorem, ipsum dolor sit amet consectetur adipisicing.
-              </h4>
-              <p class="thoughts__text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Consectetur, iste! Veritatis corporis tempore veniam fuga
-                quaerat id at! Pariatur nulla voluptate optio, dolorem suscipit
-                debitis perspiciatis. Vel quis reiciendis distinctio!
-                <span class="thoughts__subheading article__span--underline">>></span>
-              </p>
-            </a>
+                <img
+                  class="thoughts__image"
+                  src="./assets/computer-small.png"
+                  alt="Image of computer"
+                />
+                <p class="thoughts__subheading" role="doc-subtitle">Oct 2020</p>
+                <h4 class="thoughts__heading">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing.
+                </h4>
+                <p class="thoughts__text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Consectetur, iste! Veritatis corporis tempore veniam fuga
+                  quaerat id at! Pariatur nulla voluptate optio, dolorem
+                  suscipit debitis perspiciatis. Vel quis reiciendis distinctio!
+                  <span class="thoughts__subheading article__span--underline"
+                    >>></span
+                  >
+                </p>
+              </a>
             </article>
           </div>
+
+          <!-- main other thoughts -->
           <h4 class="main__subheading">More thoughts</h4>
-          <div class="projects__other">
+          <div class="grid__other">
             <article class="thoughts__article">
               <a class="article__link" href="#">
                 <p class="thoughts__text thoughts__text--bold">
                   <span class="thoughts__span">Oct 2020</span>
                   5 apps that will make coding easier.
-                  <span class="thoughts__span article__span--underline">>></span>
+                  <span class="thoughts__span article__span--underline"
+                    >>></span
+                  >
                 </p>
               </a>
             </article>
@@ -313,7 +331,9 @@
                 <p class="thoughts__text thoughts__text--bold">
                   <span class="thoughts__span">Oct 2020</span>
                   5 apps that will make coding easier.
-                  <span class="thoughts__span article__span--underline">>></span>
+                  <span class="thoughts__span article__span--underline"
+                    >>></span
+                  >
                 </p>
               </a>
             </article>
@@ -327,7 +347,7 @@
           <h3 class="main__heading">Skills</h3>
           <section class="grid__skills">
             <div class="list__item1">
-              <h4 class="projects__text projects__span main-list-p">Code</h4>
+              <h4 class="projects__text projects__span">Code</h4>
               <ul class="list projects__text">
                 <li>HTML 5</li>
                 <li>CSS3</li>
@@ -340,7 +360,7 @@
               </ul>
             </div>
             <div class="list__item2">
-              <h4 class="projects__text projects__span main-list-p">Toolbox</h4>
+              <h4 class="projects__text projects__span">Toolbox</h4>
               <ul class="list projects__text">
                 <li>Atom</li>
                 <li>Postman</li>
@@ -350,9 +370,9 @@
                 <li>Keynote</li>
               </ul>
             </div>
-    
+
             <div class="list__item3">
-              <h4 class="projects__text projects__span main-list-p">More</h4>
+              <h4 class="projects__text projects__span">More</h4>
               <ul class="list projects__text">
                 <li>Atom</li>
                 <li>Postman</li>
@@ -370,7 +390,7 @@
       <section class="section">
         <div class="grid__section">
           <h3 class="main__heading">For More</h3>
-          <section class="more__links-container">
+          <section class="grid__more">
             <a
               class="more__links"
               href="https://LinkedIn.com"
@@ -401,8 +421,8 @@
       <h3 class="footer__heading">Contact</h3>
       <p class="footer__text footer__text--bold">Sara Heijkenskjöld</p>
       <p class="footer__text">0704474829</p>
-      <a class="footer__text" href="mailto:sara.heijkenskjold@gmail.com"
-        >sara.heijkenskjold@gmail.com</a
+      <a class="footer__text" href="mailto:sara.heijkenskjold@gmail.com">
+        sara.heijkenskjold@gmail.com</a
       >
     </footer>
   </body>
