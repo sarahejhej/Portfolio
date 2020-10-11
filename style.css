@@ -8,7 +8,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   color: #fff;
 }
 
@@ -126,7 +126,7 @@
   height: 39px;
   font-size: 20px;
   padding: 10px;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .header__section {
@@ -176,7 +176,7 @@
 }
 
 .main__heading {
-  font: bold 22px/27px Montserrat;
+  font: bold 22px/27px 'Montserrat', sans-serif;
   letter-spacing: 0;
   text-transform: uppercase;
   background: #6f3112;
@@ -186,7 +186,7 @@
 }
 
 .main__subheading {
-  font: bold 21px/25px Montserrat;
+  font: bold 21px/25px 'Montserrat', sans-serif;
   letter-spacing: 0;
   color: #6f3112;
   text-align: center;
@@ -213,7 +213,7 @@
 }
 
 .summary__text {
-  font: 17px/29px Montserrat;
+  font: 17px/29px 'Montserrat', sans-serif;
   letter-spacing: 0;
   color: #000000;
   margin-top: 0;
@@ -267,13 +267,13 @@
 
 .projects__caption {
   text-transform: uppercase;
-  font: bold 16px/19px Montserrat;
+  font: bold 16px/19px 'Montserrat', sans-serif;
   letter-spacing: 0;
   color: #aebea1;
 }
 
 .projects__text {
-  font: 17px/29px Roboto;
+  font: 17px/29px 'Roboto', sans-serif;
   letter-spacing: 0;
   color: #000000;
 }
@@ -290,7 +290,7 @@
 }
 
 .projects__tag {
-  font: 9px/10px Roboto;
+  font: 9px/10px 'Roboto', sans-serif;
   letter-spacing: 0;
   color: #2b2e34;
   background-color: #aebea1;
@@ -305,7 +305,7 @@
 }
 
 .thoughts__subheading {
-  font: 17px/32px Roboto;
+  font: 17px/32px 'Roboto', sans-serif;
   letter-spacing: 0;
   color: #6f3112;
   margin: 35px 0 0 0;
@@ -313,14 +313,14 @@
 }
 
 .thoughts__heading {
-  font: bold 21px/32px Roboto;
+  font: bold 21px/32px 'Roboto', sans-serif;
   letter-spacing: 0;
   color: #000000;
   margin: 0;
 }
 
 .thoughts__text {
-  font: 17px/32px Roboto;
+  font: 17px/32px 'Roboto', sans-serif;
   letter-spacing: 0;
   color: #000000;
   margin: 0;
@@ -356,7 +356,7 @@
 }
 
 .list__heading {
-  font: 17px/29px Roboto;
+  font: 17px/29px 'Roboto', sans-serif;
   letter-spacing: 0;
   text-transform: uppercase;
   font-weight: bold;
@@ -412,7 +412,7 @@
 }
 
 .footer__heading {
-  font: bold 21px/25px Montserrat;
+  font: bold 21px/25px 'Montserrat', sans-serif;
   letter-spacing: 0;
   text-transform: uppercase;
   margin: 0 0 10px 0;
@@ -420,7 +420,7 @@
 }
 
 .footer__text {
-  font: 17px/29px Roboto;
+  font: 17px/29px 'Roboto', sans-serif;
   letter-spacing: 0;
   text-decoration: none;
   color: #2b2e34;
