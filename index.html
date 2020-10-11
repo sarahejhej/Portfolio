@@ -77,11 +77,7 @@
       <!-- MAIN SUMMARY -->
       <section class="section section__background--beige">
         <div class="grid__section">
-          <p
-            class="summary__text"
-            tabindex="0"
-            aria-label="Section with a summary about me"
-          >
+          <p class="summary__text" tabindex="0">
             <span class="summary__span--line"></span>
             <span class="summary__span--circle"></span>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ipsam
@@ -94,13 +90,7 @@
       <!-- MAIN TECH -->
       <section class="section">
         <div class="grid__section">
-          <h3
-            class="main__heading"
-            tabindex="0"
-            aria-label="Section about tech I know"
-          >
-            Tech
-          </h3>
+          <h3 class="main__heading" tabindex="0">Tech</h3>
           <p class="summary__text tech__text--center" tabindex="0">
             HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks, Redux,
             Node.js, Mongo DB, Web Accessibly, API:s, mob-programming,
@@ -110,15 +100,9 @@
       </section>
 
       <!-- MAIN FEATURED PROJECTS -->
-      <section class="section section__background--beige" tabindex="0">
+      <section class="section section__background--beige">
         <div class="grid__section">
-          <h3
-            class="main__heading"
-            tabindex="0"
-            aria-label="Presentation and links to my projects"
-          >
-            Featured projects
-          </h3>
+          <h3 class="main__heading" tabindex="0">Featured projects</h3>
 
           <!-- main featured projects articles -->
           <div class="grid__project">
@@ -326,11 +310,7 @@
       </section>
 
       <!-- MAIN THOUGHTS -->
-      <section
-        class="section"
-        tabindex="0"
-        aria-label="Section about my thoughts on code"
-      >
+      <section class="section">
         <div class="grid__section">
           <h3 class="main__heading displayed" tabindex="0">My Thoughts</h3>
           <h3 class="main__heading hidden" tabindex="0">
@@ -343,7 +323,6 @@
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Link to my thoughts"
               >
                 <img
                   class="thoughts__image"
@@ -443,11 +422,7 @@
       </section>
 
       <!-- MAIN SKILLS -->
-      <section
-        class="section section__background--beige"
-        tabindex="0"
-        aria-label="Section about my skills in tech"
-      >
+      <section class="section section__background--beige">
         <div class="grid__section">
           <h3 class="main__heading" tabindex="0">Skills</h3>
           <section class="grid__skills">
@@ -465,7 +440,9 @@
               </ul>
             </div>
             <div class="list__item2">
-              <h4 class="projects__text projects__span">Toolbox</h4>
+              <h4 class="projects__text projects__span" tabindex="0">
+                Toolbox
+              </h4>
               <ul class="list projects__text" tabindex="0">
                 <li>Atom</li>
                 <li>Postman</li>
@@ -477,7 +454,7 @@
             </div>
 
             <div class="list__item3">
-              <h4 class="projects__text projects__span">More</h4>
+              <h4 class="projects__text projects__span" tabindex="0">More</h4>
               <ul class="list projects__text" tabindex="0">
                 <li>Atom</li>
                 <li>Postman</li>
@@ -492,11 +469,7 @@
       </section>
 
       <!-- MAIN MORE -->
-      <section
-        class="section"
-        tabindex="0"
-        aria-label="Section with links to my GitHub and LinkedIn pages"
-      >
+      <section class="section">
         <div class="grid__section">
           <h3 class="main__heading" tabindex="0">For More</h3>
           <section class="grid__more">
@@ -535,8 +508,14 @@
       <p class="footer__text footer__text--bold" tabindex="0">
         Sara Heijkenskjöld
       </p>
-      <p class="footer__text" tabindex="0">0704474829</p>
-      <a class="footer__text" href="mailto:sara.heijkenskjold@gmail.com">
+      <p class="footer__text" tabindex="0" aria-label="telephone number">
+        0704474829
+      </p>
+      <a
+        class="footer__text"
+        href="mailto:sara.heijkenskjold@gmail.com"
+        aria-label="Link to e-mail"
+      >
         sara.heijkenskjold@gmail.com</a
       >
     </footer>
