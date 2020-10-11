@@ -31,7 +31,7 @@
             rel="noopener noreferrer"
           >
             <i class="fa fa-linkedin header__i"></i>
-            <span class="sr-only">LinkedIn</span>
+            <span class="sr-only">Link to my LinkedIn page</span>
           </a>
           <a
             class="header__link"
@@ -40,7 +40,7 @@
             rel="noopener noreferrer"
           >
             <i class="fa fa-github header__i"></i>
-            <span class="sr-only">Github</span>
+            <span class="sr-only">Link to my Github page</span>
           </a>
           <a
             class="header__link"
@@ -49,7 +49,7 @@
             rel="noopener noreferrer"
           >
             <i class="fa fa-stack-overflow header__i"></i>
-            <span class="sr-only">Stack overflow</span>
+            <span class="sr-only">Link to my Stack Overflow page</span>
           </a>
         </nav>
 
@@ -74,7 +74,10 @@
     <!-- MAIN -->
     <main class="grid__main">
       <!-- MAIN SUMMARY -->
-      <section class="section section__background--beige">
+      <section
+        class="section section__background--beige"
+        aria-label="Summary about me"
+      >
         <div class="grid__section">
           <p class="summary__text" tabindex="0">
             <span class="summary__span--line"></span>
@@ -87,7 +90,7 @@
       </section>
 
       <!-- MAIN TECH -->
-      <section class="section">
+      <section class="section" aria-label="Tech I know">
         <div class="grid__section">
           <h3 class="main__heading" tabindex="0">tech</h3>
           <p class="summary__text tech__text--center" tabindex="0">
@@ -99,14 +102,21 @@
       </section>
 
       <!-- MAIN FEATURED PROJECTS -->
-      <section class="section section__background--beige">
+      <section
+        class="section section__background--beige"
+        aria-label="Presentation and links to my projects"
+      >
         <div class="grid__section">
           <h3 class="main__heading" tabindex="0">Featured projects</h3>
 
           <!-- main featured projects articles -->
           <div class="grid__project">
             <article class="article">
-              <a class="article__link" href="google.com">
+              <a
+                class="article__link"
+                href="google.com"
+                aria-label="Link to my project on GitHub"
+              >
                 <div class="projects__image-container">
                   <img
                     class="projects__image"
@@ -121,13 +131,13 @@
                   <p class="projects__text">
                     <span class="projects__span">Weather App.</span>
                     Web app built in JavaScript using open weather API.
-                    <span class="projects__span article__span--underline"
+                    <span class="projects__span article__span--underline" aria-hidden="true"
                       >>></span
                     >
                   </p>
                 </div>
               </a>
-              <div class="projects__tags-container">
+              <div class="projects__tags-container" tabindex="0" aria-label="Tech used in the project">
                 <p class="projects__tag">HTML5</p>
                 <p class="projects__tag">CSS</p>
                 <p class="projects__tag">JavaScript ES6</p>
@@ -135,7 +145,11 @@
             </article>
 
             <article class="article hidden">
-              <a class="article__link" href="google.com">
+              <a
+                class="article__link"
+                href="google.com"
+                aria-label="Link to my project on GitHub"
+              >
                 <div class="projects__image-container">
                   <img
                     class="projects__image"
@@ -150,13 +164,13 @@
                   <p class="projects__text">
                     <span class="projects__span">Weather App.</span>
                     Web app built in JavaScript using open weather API.
-                    <span class="projects__span article__span--underline"
+                    <span class="projects__span article__span--underline" aria-hidden="true"
                       >>></span
                     >
                   </p>
                 </div>
               </a>
-              <div class="projects__tags-container">
+              <div class="projects__tags-container" tabindex="0" aria-label="Tech used in the project">
                 <p class="projects__tag">HTML5</p>
                 <p class="projects__tag">CSS</p>
                 <p class="projects__tag">JavaScript ES6</p>
@@ -164,7 +178,11 @@
             </article>
 
             <article class="article hidden">
-              <a class="article__link" href="google.com">
+              <a
+                class="article__link"
+                href="google.com"
+                aria-label="Link to my project on GitHub"
+              >
                 <div class="projects__image-container">
                   <img
                     class="projects__image"
@@ -179,13 +197,13 @@
                   <p class="projects__text">
                     <span class="projects__span">Weather App.</span>
                     Web app built in JavaScript using open weather API.
-                    <span class="projects__span article__span--underline"
+                    <span class="projects__span article__span--underline" aria-hidden="true"
                       >>></span
                     >
                   </p>
                 </div>
               </a>
-              <div class="projects__tags-container">
+              <div class="projects__tags-container" tabindex="0" aria-label="Tech used in the project">
                 <p class="projects__tag">HTML5</p>
                 <p class="projects__tag">CSS</p>
                 <p class="projects__tag">JavaScript ES6</p>
@@ -193,7 +211,11 @@
             </article>
 
             <article class="article hidden">
-              <a class="article__link" href="google.com">
+              <a
+                class="article__link"
+                href="google.com"
+                aria-label="Link to my project on GitHub"
+              >
                 <div class="projects__image-container">
                   <img
                     class="projects__image"
@@ -208,13 +230,13 @@
                   <p class="projects__text">
                     <span class="projects__span">Weather App.</span>
                     Web app built in JavaScript using open weather API.
-                    <span class="projects__span article__span--underline"
+                    <span class="projects__span article__span--underline" aria-hidden="true"
                       >>></span
                     >
                   </p>
                 </div>
               </a>
-              <div class="projects__tags-container">
+              <div class="projects__tags-container tabindex="0" aria-label="Tech used in the project"">
                 <p class="projects__tag">HTML5</p>
                 <p class="projects__tag">CSS</p>
                 <p class="projects__tag">JavaScript ES6</p>
@@ -225,17 +247,17 @@
           <!-- main other projects -->
           <h4 class="main__subheading">Other projects</h4>
           <div class="grid__other">
-            <article class="projects">
+            <article class="projects" aria-label="Link to my project on GitHub">
               <a class="article__link" href="#">
                 <p class="projects__text">
                   <span class="projects__span">Weather App.</span>
                   Web app built in JavaScript using open weather API.
-                  <span class="projects__span article__span--underline"
+                  <span class="projects__span article__span--underline" aria-hidden="true"
                     >>></span
                   >
                 </p>
               </a>
-              <div class="projects__tags-container">
+              <div class="projects__tags-container" tabindex="0" aria-label="Tech used in the project">
                 <p class="projects__tag">HTML5</p>
                 <p class="projects__tag">CSS</p>
                 <p class="projects__tag">JavaScript ES6</p>
@@ -243,16 +265,20 @@
             </article>
 
             <article class="projects">
-              <a class="article__link" href="#">
+              <a
+                class="article__link"
+                href="#"
+                aria-label="Link to my project on GitHub"
+              >
                 <p class="projects__text">
                   <span class="projects__span">Weather App.</span>
                   Web app built in JavaScript using open weather API.
-                  <span class="projects__span article__span--underline"
+                  <span class="projects__span article__span--underline" aria-hidden="true"
                     >>></span
                   >
                 </p>
               </a>
-              <div class="projects__tags-container">
+              <div class="projects__tags-container" tabindex="0" aria-label="Tech used in the project">
                 <p class="projects__tag">HTML5</p>
                 <p class="projects__tag">CSS</p>
                 <p class="projects__tag">JavaScript ES6</p>
@@ -263,7 +289,7 @@
       </section>
 
       <!-- MAIN THOUGHTS -->
-      <section class="section">
+      <section class="section" aria-label="Links to my thoughts about code">
         <div class="grid__section">
           <h3 class="main__heading displayed" tabindex="0">My Thoughts</h3>
           <h3 class="main__heading hidden" tabindex="0">
@@ -271,7 +297,7 @@
           </h3>
           <div class="grid__thoughts">
             <article class="article">
-              <a class="article__link" href="#">
+              <a class="article__link" href="#" aria-label="Link to my thoughts">
                 <img
                   class="thoughts__image"
                   src="./assets/computer-small.png"
@@ -286,7 +312,7 @@
                   Consectetur, iste! Veritatis corporis tempore veniam fuga
                   quaerat id at! Pariatur nulla voluptate optio, dolorem
                   suscipit debitis perspiciatis. Vel quis reiciendis distinctio!
-                  <span class="thoughts__subheading article__span--underline"
+                  <span class="thoughts__subheading article__span--underline" aria-hidden="true"
                     >>></span
                   >
                 </p>
@@ -294,7 +320,7 @@
             </article>
 
             <article class="article hidden">
-              <a class="article__link" href="#">
+              <a class="article__link" href="#" aria-label="Link to my thoughts">
                 <img
                   class="thoughts__image"
                   src="./assets/computer-small.png"
@@ -309,7 +335,7 @@
                   Consectetur, iste! Veritatis corporis tempore veniam fuga
                   quaerat id at! Pariatur nulla voluptate optio, dolorem
                   suscipit debitis perspiciatis. Vel quis reiciendis distinctio!
-                  <span class="thoughts__subheading article__span--underline"
+                  <span class="thoughts__subheading article__span--underline" aria-hidden="true"
                     >>></span
                   >
                 </p>
@@ -320,12 +346,12 @@
           <!-- main other thoughts -->
           <h4 class="main__subheading" tabindex="0">More thoughts</h4>
           <div class="grid__other">
-            <article class="thoughts__article">
+            <article class="thoughts__article" aria-label="Link to my thoughts">
               <a class="article__link" href="#">
                 <p class="thoughts__text thoughts__text--bold">
                   <span class="thoughts__span">Oct 2020</span>
                   5 apps that will make coding easier.
-                  <span class="thoughts__span article__span--underline"
+                  <span class="thoughts__span article__span--underline" aria-hidden="true"
                     >>></span
                   >
                 </p>
@@ -333,11 +359,11 @@
             </article>
 
             <article class="thoughts__article">
-              <a class="article__link" href="#">
+              <a class="article__link" href="#" aria-label="Link to my thoughts">
                 <p class="thoughts__text thoughts__text--bold">
                   <span class="thoughts__span">Oct 2020</span>
                   5 apps that will make coding easier.
-                  <span class="thoughts__span article__span--underline"
+                  <span class="thoughts__span article__span--underline" aria-hidden="true"
                     >>></span
                   >
                 </p>
@@ -348,7 +374,7 @@
       </section>
 
       <!-- MAIN SKILLS -->
-      <section class="section section__background--beige">
+      <section class="section section__background--beige" aria-label="Section about my skills in tech">
         <div class="grid__section">
           <h3 class="main__heading" tabindex="0">Skills</h3>
           <section class="grid__skills">
@@ -393,7 +419,7 @@
       </section>
 
       <!-- MAIN MORE -->
-      <section class="section">
+      <section class="section" aria-label="Section with links to my GitHub and LinkedIn pages">
         <div class="grid__section">
           <h3 class="main__heading" tabindex="0">For More</h3>
           <section class="grid__more">
@@ -402,9 +428,9 @@
               href="https://LinkedIn.com"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Link to my LinkedIn page"
             >
               <i class="fa fa-linkedin more__i"></i>
-              <span class="sr-only">LinkedIn</span>
               <p class="more__text">LinkedIn</p>
             </a>
             <a
@@ -412,9 +438,9 @@
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Link to my GitHub page"
             >
               <i class="fa fa-github more__i"></i>
-              <span class="sr-only">Github</span>
               <p class="more__text">GitHub</p>
             </a>
           </section>
@@ -423,7 +449,7 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="section footer">
+    <footer class="section footer" aria-label="Footer with contact details">
       <h3 class="footer__heading" tabindex="0">Contact</h3>
       <p class="footer__text footer__text--bold" tabindex="0">
         Sara Heijkenskjöld

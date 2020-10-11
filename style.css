@@ -95,6 +95,7 @@
     ),
     url('./assets/header-image.jpg');
   background-size: cover;
+  background-position-y: 70%;
   position: relative;
   padding: 13% 12%;
   width: 100%;
@@ -480,7 +481,7 @@
   }
 
   .grid__header {
-    height: 50vh;
+    height: 20vh;
     margin: 0 auto;
   }
 
