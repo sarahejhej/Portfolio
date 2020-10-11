@@ -65,6 +65,7 @@
         <!-- HEADER IMAGE -->
         <img
           class="header__image"
+          tabindex="0"
           src="./assets/profile-image.jpeg"
           alt="Profile image of Sara Heijkenskjöld"
         />
@@ -74,13 +75,13 @@
     <!-- MAIN -->
     <main class="grid__main">
       <!-- MAIN SUMMARY -->
-      <section
-        class="section section__background--beige"
-        tabindex="0"
-        aria-label="Section with a summary about me"
-      >
+      <section class="section section__background--beige" tabindex="0">
         <div class="grid__section">
-          <p class="summary__text" tabindex="0">
+          <p
+            class="summary__text"
+            tabindex="0"
+            aria-label="Section with a summary about me"
+          >
             <span class="summary__span--line"></span>
             <span class="summary__span--circle"></span>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ipsam
@@ -91,13 +92,15 @@
       </section>
 
       <!-- MAIN TECH -->
-      <section
-        class="section"
-        tabindex="0"
-        aria-label="Section about tech I know"
-      >
+      <section class="section" tabindex="0">
         <div class="grid__section">
-          <h3 class="main__heading" tabindex="0">tech</h3>
+          <h3
+            class="main__heading"
+            tabindex="0"
+            aria-label="Section about tech I know"
+          >
+            Tech
+          </h3>
           <p class="summary__text tech__text--center" tabindex="0">
             HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks, Redux,
             Node.js, Mongo DB, Web Accessibly, API:s, mob-programming,
@@ -107,13 +110,15 @@
       </section>
 
       <!-- MAIN FEATURED PROJECTS -->
-      <section
-        class="section section__background--beige"
-        tabindex="0"
-        aria-label="Presentation and links to my projects"
-      >
+      <section class="section section__background--beige" tabindex="0">
         <div class="grid__section">
-          <h3 class="main__heading" tabindex="0">Featured projects</h3>
+          <h3
+            class="main__heading"
+            tabindex="0"
+            aria-label="Presentation and links to my projects"
+          >
+            Featured projects
+          </h3>
 
           <!-- main featured projects articles -->
           <div class="grid__project">
