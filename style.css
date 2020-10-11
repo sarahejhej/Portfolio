@@ -6,6 +6,7 @@
 
 .body {
   text-rendering: optimizeLegibility;
+  font-smooth: antialiased;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Montserrat', sans-serif;
@@ -543,7 +544,7 @@
   .summary__span--line {
     width: 95px;
     height: 3px;
-    margin-bottom: 7px;
+    margin-bottom: 8px;
   }
 
   .summary__span--circle {
@@ -555,6 +556,10 @@
   .summary__text {
     font-size: 30px;
     line-height: 50px;
+  }
+
+  .tech__span {
+    color: #6f3112;
   }
 
   .projects__image-container {
